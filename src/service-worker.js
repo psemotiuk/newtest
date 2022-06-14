@@ -80,6 +80,7 @@
 //
 // // Any other custom service worker logic can go here.
 
+//eslint-disable-next-line
 const ignored = self.__WB_MANIFEST;
 
 export default function swDev() {
